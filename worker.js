@@ -18,8 +18,8 @@ firebase.initializeApp(firebaseConfig);
 var storage = firebase.app().storage("gs://assistprodatabase.appspot.com");
 var storageRef = storage.ref();
 
-AddSection("Dress", "Dress.jpg", 1);
-AddSection("Steph", "Steph.png", 1);
+//AddSection("Dress", "Dress.jpg", 1);
+//AddSection("Steph", "Steph.png", 1);
 
 function AddSection(name, thumbnail, count){
 
