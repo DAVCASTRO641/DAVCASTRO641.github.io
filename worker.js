@@ -45,7 +45,7 @@ function AddSection(name, thumbnail, count){
   
     var div = document.getElementById("main_row");
     div.innerHTML += "<div class=\""+ class_id 
-    + "\" data-aos=\"fade-up\"> <a href=\"single.html\" class=\"d-block photo-item\"> <img src=\""+ url 
+    + "\" data-aos=\"fade-up\"> <a href=\"single\" class=\"d-block photo-item\"> <img src=\""+ url 
     + "\" alt=\"Image\" class=\"img-fluid\"> <div class=\"photo-text-more\"> <div class=\"photo-text-more\"> <h3 class=\"heading\">" 
     + name + "</h3> <span class=\"meta\">"+ count +" Photos</span> </div> </div> </a> </div>";
 
